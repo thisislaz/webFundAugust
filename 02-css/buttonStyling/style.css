@@ -1,0 +1,27 @@
+#first{
+    border: 3px solid darkseagreen;
+    color: darkseagreen;
+    width: 200px;
+    padding: 10px;
+
+}
+
+#plus{
+    font-size: 30px;
+    border: 0px;
+    margin:18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: darkcyan;
+    color: white;
+}
+
+#last{
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    box-shadow: 4px 4px 0px black;
+}

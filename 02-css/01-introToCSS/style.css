@@ -1,0 +1,76 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: chocolate;
+    background-color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+
+#goat {
+    color: blue;
+}
+
+/*The following is for singular use on an element*/
+#slogan {
+    color: red;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+li {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+/*The following selects multiple elements and gives them the same style*/
+.crossed-out {
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.is-red {
+    color: red;
+}
+
+button{
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    display: block;
+    margin-bottom:20px;
+}
+
+#middle-btn{
+    height: 200px;
+    width: 100px;;
+}
+
+.round-btn{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color:black;
+}
+
+#last-btn{
+    border-radius: 15px;
+    width: 200px;
+}
+
+.shadow{
+    box-shadow: 10px -10px 10px black;
+}
+
+/* h1 is the selector
+
+color is the css property
+chocolate is the value
+color: chocolate --> this combo of property + value = css rule
+
+*/

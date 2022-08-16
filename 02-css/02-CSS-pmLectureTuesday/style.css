@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+    /* this says to include the padding and border in the calculation of the height */
+}
+
+
+body{
+    padding: 20px;
+    
+    background-color: aquamarine;
+}
+
+h1{
+    
+    color:blue;
+    margin-bottom: 20px;
+}
+
+#purp{
+    color:purple;
+}
+
+
+.red-font{
+    color:red;
+}
+
+#header{
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 15px; 
+    /* overflow makes the content fit inside the container */
+}
+
+#slogan{
+    margin-bottom: 10px;
+}
+
+#header>button{
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 5px; */
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    
+}
+
+#header>p{
+    line-height: 20px;
+
+}
+
+#left-bar{
+    height:300px;
+    width: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#main{
+    height: 500px;
+    width: 600px;
+    background-color: brown;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.blue-box{
+    /* height: 150px;
+    width: 150px; */
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.blue-box>img{
+    border-radius: 50%;
+}
+
+#info{
+    height: 150px;
+    background-color: deepskyblue;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#header>p means select any p tag that is a direct child of #header
+
+#header p means select any p tag that is descendant of #header
+
+*/
+
+
+/* #header p{
+    font-family: cursive;
+    color:red;
+    font-size: 24px;
+} */
+
+
+
+

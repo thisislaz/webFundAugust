@@ -1,8 +1,106 @@
-img{
-    height:150px;
-    margin: 15px;
+html,
+#reg-font {
+    font-size: 20px;
 }
-a{
-    margin:10px;
-    
+
+h3,
+h1 {
+    margin-bottom: 0;
+}
+
+img {
+    height: 150px;
+    margin: 15px;
+    border-radius: 15px;
+    ;
+}
+
+a,
+a:visited {
+    color: blue;
+    margin: 10px;
+    font-size: 22px;
+}
+
+i {
+    font-size: 28px;
+    margin-right: 8px;
+    color: black;
+}
+
+td{
+    text-align: left;
+    margin: 2px;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+th{
+    border-spacing: 0;
+    border-bottom: 3px solid black;
+    margin: 8px;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+table{
+    border-collapse: collapse;
+    border-bottom: none;
+}
+
+
+.left{
+    border-left: 3px solid black;
+}
+
+.bottom{
+    border-bottom: 3px solid black;
+}
+
+input {
+    height: 20px;
+    width: 89px;
+    margin-right: 15px;
+    border: 3px solid;
+}
+
+
+textarea {
+
+    border: 3px solid;
+    vertical-align: top ;
+    resize: none;
+}
+
+.submit-btn {
+
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 3px solid;
+    box-shadow: 3px 3px 0px black;
+}
+
+#btn-right {
+    width: 180px;
+}
+
+#snakes {
+    height: 80px;
+    margin: 0;
+}
+
+#codes {
+    margin-top: 0;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#space{
+    margin-top: 12px;
 }
