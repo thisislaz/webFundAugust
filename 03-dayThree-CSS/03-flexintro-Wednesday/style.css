@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.row{
+    /* if no height is given then it collapses into the containers height  */
+    /* height: 300px; */
+    background-color: bisque;
+    border: 1px solid black;
+    margin-bottom:15px;
+    padding: 20px;
+
+    display: flex;
+    /* justify-content is for horizontal if flex-direction is not used */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+
+    /* align-items is for vertical */
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: flex-end; */
+}
+
+#row1{
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#row2{
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* align-items: center; */
+}
+
+#row3{
+    justify-content: space-evenly;
+    /* gap: 20px; */
+    align-items: flex-end;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border: 1px solid black;
+    padding:5px;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+}
