@@ -64,9 +64,6 @@ h1{
 }
 
 #no-color{
-    color: black;
+    /* color: black; */
 }
 
-nav{
-    background-color: white;
-}
