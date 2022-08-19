@@ -2,8 +2,10 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Roboto';
 }
+
+
 
 #nav-title{
     display: inline-block;
@@ -12,22 +14,29 @@
 .nav{
     background-color: rgb(70, 66, 66);
     display: flex;
-    margin: 5px;
+    margin: 10px;
     color:white;
     padding: 15px;
     justify-content: space-between;
     align-items:center;
-}
-
-ul{
-    /* display: inline-block; */
-    list-style: none;
     
-
 }
 
-li{
-    display: inline-block;
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:400px;
+    list-style: none;    
+}
+
+li  a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.active{
+    color: white;
 }
 
 .btn{
@@ -35,12 +44,9 @@ li{
     background-color: rgb(80, 196, 196);
     color: white;
     padding: 5px;
-    width: 90px;
+    width: 96px;
     font-weight: bold;
+    border-width: 4px;
+    
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-}
