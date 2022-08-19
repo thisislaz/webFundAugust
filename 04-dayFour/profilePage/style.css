@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: black;
+}
+
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#left{
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+    justify-content: end;
+    margin-right: 15px;
+    font-size: 28px;
+}
+
+#right{
+    display: flex;
+    flex: 2;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding:0px 220px 0 20px;
+    font-weight: 800;
+    font-size: 22px;
+    gap:30px;
+    margin-left: 18px;
+}
+
+.head-li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    
+}
+
+.head-li>a{
+    color: grey;
+    text-decoration: none;
+}
+
+.head-li a:hover{
+    color: rgb(2, 205, 212);
+    
+}
+
+.head-li a:active{
+    color: black;
+}
+
+#right-btn{
+    width: 170px;
+    font-size: 22px;
+    background-color: darkolivegreen;
+    color: white;
+    box-shadow: 4px 4px 3px black;
+}
+
+#right-btn:hover{
+    background-color: rgb(2, 205, 212);
+    transition: 0.5s;
+}
+
+#main{
+    height: 1100px;
+    border: 2px solid red;
+    margin-right: 50px;
+    padding: 60px 240px 0px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-sec-left{
+    height: 1036px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+}
+
+#card{
+    height: 420px;
+    width: 100%;
+    border: 4px solid grey;
+    border-radius: 10px;
+    color: white;
+}
+
+#top-sec{
+    height:120px;
+    /* border: 2px solid red; */
+    background-color:darkolivegreen;
+}
+
+#top-sec>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px double rgba(255, 255, 255, 0.87);
+    position: relative;
+    top: 36px;
+    left: 30px;
+}
+
+#bot-sec{
+    display: flex;
+    height: 290px;
+    /* border: 2px solid red; */
+    padding: 35px 0px 25px 28px;
+    flex-direction: column;
+}
+
+#name-loc{
+    margin-top: 31px;
+    height: 76px;
+    /* border: 2px solid red; */
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#name-loc h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#name-loc img, p{
+    color:white;
+    height: 20px;
+    font-size: 19px;
+}
+
+#bio{
+    /* height: 50px; */
+    /* border: 2px solid red; */
+    /* flex: 1; */
+    margin: 10px 0px;
+}
+
+#bot-of-card img{
+    height: 24px;
+    /* border: 2px solid red; */
+    margin-right:10px;
+    
+}
+
+#bot-of-card a{
+    font-size: 19px;
+    color: rgb(43,120,228);
+}
+
+#main-sec-right{
+    /* border: 2px solid red; */
+    /* background-color: rgb(6, 184, 57); */
+    height: 1000px;
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#requests{
+    border-radius: 10px;
+    height: 360px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: aqua;
+    /* margin-bottom: 36px; */
+}
+
+#connects{
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 920px;
+    width: 100%;
+    border: 2px solid red;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+#connects-head{
+    flex:1;
+    border: 2px solid red;
+    /* height: 80px; */
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#connects-head-top{
+    flex:2;
+    border: 2px solid red;
+    height: 95px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding: 22px;
+}
+
+#connects-head-top img{
+    height: 40px;
+    margin-right: 12px;
+}
+
+#connects-head-top a{
+    font-size: 20px;
+    margin: 0px 0px 6px 6px;
+    text-decoration: none;
+    color: white;
+}
+
+#connects-head-bot{
+    /* background-color: green; */
+    height: 500px;
+    color: white;
+    display: flex;
+
+}
+
+#connects-bot{
+    border: 2px solid red;
+    height: 95px;
+    width: 100%;
+}
+
+#connects-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    
+}
+
+#connects-list img{
+    height: 98px;
+    width: 98px;
+    border-radius: 50%;
+    margin: 10px;
+}
