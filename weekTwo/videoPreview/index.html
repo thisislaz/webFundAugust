@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar">
+        <div id="nav-left">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search">
+        </div>
+        <button>Login</button>
+    </div>
+    <div id="flex-container">
+        <div id="left-col">
+            <video 
+                onmouseover="startVideo(this)" 
+                onmouseout="stopVideo(this)" 
+                muted loop 
+                src="./assets/squrril.mp4"></video>
+            <div id="bot-vid-flex">
+                <div id="bot-vid-info">
+                    <h2>Example Video Title</h2>
+                    <p>1.3k views | June 18, 2021</p>
+                </div>
+                <button>Subscribe</button>
+            </div>
+            <div id="user">
+                <img src="./assets/user.png" alt="">
+                <a href="#">Example User Name</a>
+            </div>
+        </div>
+        <div id="right-col">
+            <h4>Up Next</h4>
+            <div class="up-next-vids">
+                <div class="individual-vid">
+                    <video 
+                        onmouseover="startVideo(this)" 
+                        onmouseout="stopVideo(this)" 
+                        muted loop  
+                        src="./assets/penguins.mp4">
+                    </video>
+                    <p>Nice penguins swimming</p>
+                </div>
+                <div class="individual-vid">    
+                    <video 
+                        onmouseover="startVideo(this)" 
+                        onmouseout="stopVideo(this)" 
+                        muted loop  
+                        src="./assets/roses.mp4">
+                    </video>
+                    <p>Roses with a mask</p>
+                </div>
+                <div class="individual-vid">
+                    <video  
+                        onmouseover="startVideo(this)" 
+                        onmouseout="stopVideo(this)" 
+                        muted loop 
+                        src="./assets/vacum-forest.mp4"></video>
+                    <p>Vacumming pollution</p>
+                </div>
+                <div class="individual-vid">
+                    <video  
+                        onmouseover="startVideo(this)" 
+                        onmouseout="stopVideo(this)" 
+                        muted loop 
+                        src="./assets/cascade.mp4"></video>
+                    <p>Last source of water</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

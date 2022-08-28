@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    padding: 0px 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#nav-bar{
+    background-color: rgb(40,40, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding: 20px 36px;
+    border-top: 11px solid rgb(153,0,255);
+    margin-bottom: 30px;
+}
+
+#nav-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    align-items: center;
+}
+
+#nav-left>input{
+    width: 480px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#nav-bar>button{
+    background-color: rgb(153,0,255);
+    color: white;
+    font-size: 20px;
+    padding: 3px 25px;
+    box-shadow: 3px 3px 3px black;
+    border: 4px solid black;
+}
+
+#flex-container{
+    /* border: 3px solid red; */
+    /* height: 1000px; */
+    display: flex;
+    gap: 10px;
+    padding: 3px;
+}
+
+#left-col{
+    /* border: 3px solid green; */
+    flex:3;
+}
+
+#right-col{
+    /* border: 3px solid green; */
+    flex:1.7;
+}
+
+#left-col>video{
+    height: 550px;
+    width: 615px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    border: 8px double rgb(153,0,255);
+    background-color: black;
+}
+
+#bot-vid-flex{
+    /* border: 3px solid yellow;     */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 20px;
+    font-size: 23px;
+    
+}
+
+#bot-vid-flex>button{
+    background-color: rgb(153,0,255);
+    padding: 7px 26px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 1px black;
+    border: 4px solid black;
+    margin-left: 90px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+
+}
+
+#user>a{
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 700;
+    color: rgb(153,0,255);
+    margin-left: 14px;
+}
+
+#user>img{
+    height: 80px;
+}
+
+#right-col>h4{
+    font-size: 30px;
+    padding-left: 6px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+
+#right-col video{
+    height: 180px;
+    width: 180px;
+    background-color: black;
+    margin: 12px 0px;
+    border: 3px double rgb(153,0,255);
+}
+
+.individual-vid{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
