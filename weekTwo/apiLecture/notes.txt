@@ -1,0 +1,4 @@
+API = Application Programming Interface---> resources from an application that are available for toher applications to access
+
+We will be getting from an application called CoinGecko and using those resources (data) from that application.
+
