@@ -15,23 +15,40 @@
 // var veggieLovers = pizzaOven('hand tossed', 'marinara', ['mozzarella', 'feta'], ['mushrooms', 'olives', 'onions']);
 // console.log(veggieLovers)
 
-// var margarita = pizzaOven('flatbread', "tomatoe suace", 'fresh mozz', ['sliced tomatoe', 'spinach']);
+// var margarita = pizzaOven('flatbread', 'tomatoe suace', 'fresh mozz', ['sliced tomatoe', 'spinach']);
 // console.log(margarita)
 
 // var fishyBusniess = pizzaOven('cheese filled', 'mariana', 'mozz', ['tuna', 'clams'])
-// console.log(fishyBusniess )
+// console.log(fishyBusniess)
 
-function randomPizza(crustType, sauceType,cheese,toppings){
+
 var crustType = ['handtossed', 'brooklyn', 'stuffed', 'cheesy'];
-var sauceType = ['marinara', 'alfredo', 'none'];
-var cheese = ['mozz', 'provolone', 'feta', 'double', 'none'];
+var sauceType = ['marinara', 'alfredo', 'none', 'tradinational'];
+var cheese = ['mozz', 'provolone', 'feta', 'double', 'none', 'chedar'];
 var toppings = ['spinach', 'olives', 'tomatoes', 'shrooms', 'onions', 'pineapple']
-    var pizza = {}
-        pizza.crustType = Math.random()*crustType;
-        pizza.sauceType = Math.random()*sauceType;
-        pizza.cheese = Math.random()*cheese;
-        pizza.toppings = Math.random()*toppings;
-    
-        return pizza
+
+
+function randomPick(arr){
+    var i = Math.floor(Math.random()*arr.length);
+    return arr[i];
 }
-console.log(randomPizza)
+
+function randomRange(max, min){
+    return Math.floor(Math.random() * max-min) + min;
+}
+
+function randomPizza(){
+    var pizza ={};
+        pizza.crustType = [randomPick(crustType)];
+        pizza.sauceType = [randomPick(sauceType)];
+        pizza.cheese = [];
+        pizza.toppings = [];
+    for(var i=0;i<randomRange(5,1); i++){
+        pizza.cheese.push(randomPick(cheese))
+    }
+    for(var i=0;i<randomRange(4,0); i++){
+        pizza.toppings.push(randomPick(toppings))
+    }
+    return pizza
+}
+console.log(randomPizza());
